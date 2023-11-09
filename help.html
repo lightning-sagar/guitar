@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Help - Virtual Guitar</title>
+    <style>
+        body {
+            background-color: rgb(243, 243, 243);
+        }
+
+
+        
+        .help-content {
+            text-align: center;
+            padding: 20px;
+            margin: 0 auto;
+            max-width: 600px;
+            color: rgb(0, 0, 0);
+            border: 2px solid rgb(0, 0, 0);
+            border-radius: 10px;
+        }
+
+
+        .help-content h2 {
+            margin-top: 20px;
+        }
+
+        .help-content p {
+            font-size: 18px;
+        }
+
+        h1 {
+            color: rgb(0, 0, 255);
+            text-align: center;
+            margin-top: 90px;
+        }
+
+        .back-button {
+            display: block;
+            width: 120px;
+            margin: 20px auto;
+            padding: 10px;
+            background-color: rgb(254, 21, 21);
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>How to Use the Virtual Guitar</h1>
+    </header>
+    <div class="help-content">
+        <h2>Welcome to the Virtual Guitar!</h2>
+        <p>Explore and enjoy the Virtual Guitar with two easy methods:</p>
+        <h3>Method 1: Mouse Over</h3>
+        <p>Move your mouse pointer over the keys to make beautiful guitar sounds play.</p>
+        <h3>Method 2: Key Down</h3>
+        <p>Play the guitar with your keyboard. Just press the keys on your keyboard, and the guitar sounds will follow your tune.</p>
+        <p>Note: Make sure the "Off KeyDown" button is not clicked to enable this feature.</p>
+        <button class="back-button" onclick="goBack()">Go Back</button>
+    </div>    
+
+    <script>
+        function goBack() {
+            window.history.back();
+        }
+    </script>
+</body>
+</html>
